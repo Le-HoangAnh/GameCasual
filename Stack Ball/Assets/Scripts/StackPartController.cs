@@ -13,7 +13,7 @@ public class StackPartController : MonoBehaviour
     {
         rigidbody = GetComponent<Rigidbody>();
         meshRenderer = GetComponent<MeshRenderer>();
-        stackController = transform.GetComponent<StackController>();
+        stackController = transform.parent.GetComponent<StackController>();
         colider = GetComponent<Collider>();
     }
 

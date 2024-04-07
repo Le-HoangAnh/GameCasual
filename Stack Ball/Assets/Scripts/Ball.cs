@@ -38,7 +38,7 @@ public class Ball : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //totalStacks = FindObjectOfType<StackController>().Length;
+        totalStacks = FindObjectsOfType<StackController>().Length;
     }
 
     // Update is called once per frame
@@ -107,12 +107,6 @@ public class Ball : MonoBehaviour
             {
                 invincibleFill.fillAmount = currentTime / 1;
             }
-        }
-        
-        if (ballState == BallState.Prepare)
-        {
-            if (Input.GetMouseButtonDown(0))
-                ballState = BallState.Playing;
         }
 
         if (ballState == BallState.Finish)
