@@ -59,13 +59,13 @@
     <Compile Include="Assets\Scripts\Rotator.cs" />
     <Compile Include="Assets\Scripts\StackPartController.cs" />
     <Compile Include="Assets\Scripts\StackController.cs" />
+    <Compile Include="Assets\Scripts\Ignore.cs" />
     <Compile Include="Assets\Scripts\GameUI.cs" />
     <Compile Include="Assets\Scripts\LevelSpawner.cs" />
     <Compile Include="Assets\Scripts\SoundManager.cs" />
     <Compile Include="Assets\Scripts\Ball.cs" />
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\ScoreManager.cs" />
-    <Compile Include="Assets\Scripts\Ignore.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
